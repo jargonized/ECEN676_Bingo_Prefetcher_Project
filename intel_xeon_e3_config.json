@@ -1,0 +1,37 @@
+{
+
+"num_cores" : 4,
+"rob_size": 256,
+"lq_size":64,
+"sq_size":64,
+"branch_predictor": "perceptron",
+
+"L1I": {
+        "sets": 64,
+        "ways": 8,
+        "mshr_size": 8
+            },
+            
+  "L1D": {
+        "sets": 64,
+        "ways": 8,
+        "mshr_size": 8
+       
+    },
+    
+  "L2C": {
+        "sets": 512,
+        "ways": 8,
+        "mshr_size": 32
+    },
+
+  "LLC": {
+        "sets": 2048,
+        "ways": 16,
+        "latency":15
+  },
+  
+  
+        
+
+}
